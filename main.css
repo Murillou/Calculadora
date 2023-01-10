@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas';
+}
+
+body{
+    background-color: #2F4F4F;overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #DCDCDC;
+}
+
+#calculator{
+    background-color: #4682B4;
+    width: 20%;
+    margin:  7% auto;
+    text-align: center;
+    height: 20em;
+    padding-top: 1.5%;
+    border-radius: 5%;
+}
+
+#display{
+   background-color:#A9A9A9; 
+   width: 60%;
+   border: solid 0.3px #696969;
+   border-radius: 30%;
+   height: 3.7em;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.space{
+    padding-top: 3%;
+}
+
+#on{
+ background-color: #228b22;
+ color: #DCDCDC;
+}
+
+#off{
+    background-color: #DC143C;
+    color: #DCDCDC;
+}
+
+#clear{
+    background-color: #FFFF00;
+    color: black;
+}
+
+
+.teclas{
+    width: 20%;
+    height: 3em;
+    border: none;
+    border-radius: 70%;
+    background-color: #B0C4DE;
+    
+}
+
+.teclas:hover{
+    background-color: #A9A9A9;
+    transform: scale(1.07);
+    transition: 500ms;
+}
